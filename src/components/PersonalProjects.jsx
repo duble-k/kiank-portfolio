@@ -7,8 +7,6 @@ import {
     FaReact,
     FaNodeJs,
     FaGoogle,
-    FaAws,
-    FaDatabase,
     FaFire
 }
     from 'react-icons/fa'; // Import icons from react-icons
@@ -72,7 +70,7 @@ const PersonalProjects = () => {
                 {/* Project Title and Description */}
                 <Grid item xs={12} md={8}>
                     <Paper sx={{ padding: 2 }}>
-                        <MuiLink href="https://www.weeelab.com/" target="_blank" rel="noopener noreferrer">
+                        <MuiLink href="https://cmh-lab.web.app/" target="_blank" rel="noopener noreferrer">
                             <Typography variant="h5" gutterBottom>
                                 Lab Data Application
                             </Typography>
@@ -86,13 +84,13 @@ const PersonalProjects = () => {
                                     Developed for a local hospital's lab department to manage information from inquiring phone calls across different departments.
                                 </li>
                                 <li>
-                                    Built using Node.js as the server, AWS S3 and MongoDB as the cloud storage solutions, and hosted on Render.com.
+                                    Built using React and Tailwind CSS, along with GCP/Firebase cloud infrastrcutre for storage, functions, and messaging.
                                 </li>
                                 <li>
-                                    Access the site with demo credentials: basicDemo (username) and 1amb4sic (password). Please allow a moment for login as it is hosted on Render's free tier server.
+                                    Hosted using Firebase as well, and it's pubic domain (.web.app).
                                 </li>
                                 <li>
-                                    Note: The data in the application is currently test data and may not include all production features, such as PDF forms.
+                                    Access the site: signup using email and verify. For admin privileges, please contact directly.
                                 </li>
                             </ul>
                             <br />
@@ -100,8 +98,8 @@ const PersonalProjects = () => {
                             <ul>
                                 <li><FaReact style={{ color: '#61DAFB' }} /> React</li>
                                 <li><FaNodeJs style={{ color: '#8CC84B' }} /> Node.js</li>
-                                <li><FaAws style={{ color: '#FF9900' }} /> AWS S3</li>
-                                <li><FaDatabase style={{ color: '#4CAF50' }} /> MongoDB</li>
+                                <li><FaGoogle style={{ color: '#4285F4' }} /> Google Cloud Platform (GCP)</li>
+                                <li><FaFire style={{ color: '#FFA500' }} /> Firestore</li>
                             </ul>
                         </Typography>
                     </Paper>
